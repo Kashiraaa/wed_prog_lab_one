@@ -4,6 +4,7 @@
         font-family: 'Times New Roman';
         margin: 0px;    
     }
+
     header{
         background-color: blueviolet;
         color: aliceblue;
@@ -11,10 +12,32 @@
         font-size: 16pt;
         font-style: italic;
     }
+
     footer {
         background-color: blueviolet;
         color: aliceblue;
         padding: 10px;
         font-size: 16pt;
         text-align: right;
+    }
+
+    a{
+        color: yellow; 
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: lightpink;
+    }
+
+    a:hover {
+        background-color: whitesmoke;
+        color: darkturquoise;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    a:active {
+        color: darkmagenta;
+        background-color: whitesmoke;
     }
