@@ -1,12 +1,12 @@
     body {
-        background-color: black;
+        background-color: lightblue;
         color: whitesmoke;
         font-family: 'Times New Roman';
         margin: 0px;    
     }
 
     header{
-        background-color: blueviolet;
+        background-image: linear-gradient(to right bottom, deepskyblue, brown);
         color: aliceblue;
         padding: 10px;
         font-size: 16pt;
@@ -14,7 +14,7 @@
     }
 
     footer {
-        background-color: blueviolet;
+        background-image: linear-gradient(to right top, deepskyblue, brown);
         color: aliceblue;
         padding: 10px;
         font-size: 16pt;
