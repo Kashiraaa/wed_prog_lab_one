@@ -24,6 +24,7 @@
     a{
         color: yellow; 
         text-decoration: none;
+        transition: 1s;
     }
 
     a:visited {
@@ -35,6 +36,7 @@
         color: darkturquoise;
         text-decoration: underline;
         font-weight: bold;
+        transition: 300ms;
     }
 
     a:active {
