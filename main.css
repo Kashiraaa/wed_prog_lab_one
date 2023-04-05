@@ -13,12 +13,34 @@
         font-style: italic;
     }
 
+    header:hover{
+        color: blue;
+        transition: 700ms;
+        
+    }
+
+    header:active{
+        font-size: 20pt;
+        transition: 700ms;
+    }
+
     footer {
         background-image: linear-gradient(to right top, deepskyblue, brown);
         color: aliceblue;
         padding: 10px;
         font-size: 16pt;
         text-align: right;
+    }
+
+    footer:hover{
+        color: blue;
+        transition: 700ms;
+        
+    }
+
+    footer:active{
+        font-size: 20pt;
+        transition: 700ms;
     }
 
     a{
