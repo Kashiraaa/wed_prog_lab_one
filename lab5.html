@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каширский Данил Сергеевич. Лабортаорная работа №5</title>
     <link rel="stylesheet" href="main.css">
+    <script>
+        function ShowSum () {
+            let a = 5154;
+            let b = 7891;
+            let result = a + b;
+            alert('Сумма ' +a+ ' и ' +b+ ' равна ' + result);  
+        } 
+    </script>
+    <style>
+        .message {
+            cursor: pointer;
+            color: whitesmoke;
+            background-color: purple;
+            font-size: 16pt;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 8px;
+            border: 1px solid;
+            margin: 10px 20px;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,6 +37,8 @@
     </header>
 
     <main>
+        <div class="message" onclick="ShowSum()">Сколько будет 5154+7891?</div>
+        <div class="message">Узнать, кто автор страницы</div>
     </main>
 
     <footer>
