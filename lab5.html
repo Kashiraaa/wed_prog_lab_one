@@ -7,12 +7,21 @@
     <title>Каширский Данил Сергеевич. Лабортаорная работа №5</title>
     <link rel="stylesheet" href="main.css">
     <script>
+        let z = "Хорошего дня !"
         function ShowSum () {
             let a = 5154;
             let b = 7891;
             let result = a + b;
             alert('Сумма ' +a+ ' и ' +b+ ' равна ' + result);  
         } 
+        function ShowAuthor () {
+            let Author = "Автор страницы: Каширский Данил Сергеевич"
+            alert (Author);
+        }
+        function Showlozung() {
+            let lozung = "See you soon !"
+            alert (lozung);
+        }
     </script>
     <style>
         .message {
@@ -32,16 +41,16 @@
 </head>
 
 <body>
-    <header>
+    <header onclick="ShowAuthor()">
         НГТУ, ФБ, Лабораторная работа 5
     </header>
 
     <main>
         <div class="message" onclick="ShowSum()">Сколько будет 5154+7891?</div>
-        <div class="message">Узнать, кто автор страницы</div>
+        <div class="message" onclick="ShowAuthor()">Узнать, кто автор страницы</div>
     </main>
 
-    <footer>
+    <footer onclick="Showlozung()">
         &copy; Каширский Данил, ФБИ-14, II курс, 2023г.
     </footer>
 </body>
