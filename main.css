@@ -24,6 +24,10 @@
         transition: 700ms;
     }
 
+    main{
+        margin: 10px 20px;
+    }
+
     footer {
         background-image: linear-gradient(to right top, deepskyblue, brown);
         color: aliceblue;
