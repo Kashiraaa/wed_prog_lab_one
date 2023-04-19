@@ -9,8 +9,10 @@
     <script>
         let z = "Хорошего дня !"
         function ShowSum () {
-            let a = 5154;
-            let b = 7891;
+            let inputA = document.getElementById('numA');
+            let inputB = document.getElementById('numB')
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
             let result = a + b;
             alert('Сумма ' +a+ ' и ' +b+ ' равна ' + result);  
         } 
@@ -46,7 +48,10 @@
     </header>
 
     <main>
-        <div class="message" onclick="ShowSum()">Сколько будет 5154+7891?</div>
+        <label>Первая переменная:<input type="number" input="5154" id="numA"></label><br>
+        <label>Вторая переменная:<input type="number" input="7891" id="numB"></label><br>
+
+        <div class="message" onclick="ShowSum()">Найти сумму чисел</div>
         <div class="message" onclick="ShowAuthor()">Узнать, кто автор страницы</div>
     </main>
 
