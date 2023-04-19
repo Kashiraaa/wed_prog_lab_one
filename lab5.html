@@ -54,6 +54,19 @@
             output.style.backgroundColor = backColor;
             output.style.color = textColor;
         }
+        function basket () {
+            let inputC = document.getElementById('numC');
+            let inputD = document.getElementById('numD');
+            let inputE = document.getElementById('numE');
+            let inputF = document.getElementById('numF');
+            let output = document.getElementById ('output2')
+            let c = parseInt(inputC.value) * 14000;
+            let d = parseInt(inputD.value) * 15000;
+            let e = parseInt(inputE.value) * 16500;
+            let f = parseInt(inputF.value) * 18000;
+            let itog = c + d + e + f;
+            output2.innerHTML = 'Общая цена : ' + itog + ' р';
+        }
     </script>
     <style>
         .message {
@@ -66,7 +79,7 @@
             font-family: 'Times New Roman', Times, serif;
             padding: 8px;
             border: 1px solid;
-            margin: 10px 20px;
+            margin: 10px;
             display: inline-block;
         }
 
@@ -74,6 +87,29 @@
             border: 1px solid;
             width: 300px;
             height: 40px;
+            margin: 10px;
+        }
+
+        #output2 {
+            width: 300px;
+            height: 40px;
+            margin: 10px;
+        }
+        
+        .basket {
+            color: darkblue;
+            background-color: lightblue;
+            border: 1px solid;
+            padding: 5px;
+            margin: 10px;
+        }
+        .qwe {
+            color:darkblue;
+            font-size: 20pt;
+        }
+
+        .wqer {
+            margin: 2px 4px 2px 4px;
         }
     </style>
 </head>
@@ -84,7 +120,7 @@
     </header>
 
     <main>
-        <label>Первая переменная:<input type="number" input="5154" id="numA"></label><br>
+        <label >Первая переменная:<input type="number" input="5154" id="numA"></label><br>
         <label>Вторая переменная:<input type="number" input="7891" id="numB"></label><br>
 
         <div class="message" onclick="ShowSum()">Найти сумму чисел</div>
@@ -101,6 +137,16 @@
         </div>
 
         <div id="output"></div>
+
+        <div class="basket">
+            <h1 class="qwe" >Корзина</h1>
+            <label class="wqer">Доска 50*200 6 м (плаха) (14 000 р/куб):<br><input type="number" input="0" id="numC"></label><br>
+            <label class="wqer">Доска 25*100 6 м (тёс) (15 000 р/куб):<br><input type="number" input="0" id="numD"></label><br>
+            <label class="wqer">Доска 25*120 6м (тёс) (16 500 р/куб):<br><input type="number" input="0" id="numE"></label><br>
+            <label class="wqer">Доска 25*150 6м (тёс) (18 000 р/куб):<br><input type="number" input="0" id="numF"></label><br>
+            <input class="wqer" type="button" value="Рассчитать" onclick="basket()"><br>
+            <div id="output2"></div>
+        </div>
     </main>
 
     <footer onclick="Showlozung()">
