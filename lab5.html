@@ -59,7 +59,7 @@
             let inputD = document.getElementById('numD');
             let inputE = document.getElementById('numE');
             let inputF = document.getElementById('numF');
-            let output = document.getElementById ('output2')
+            let output = document.getElementById ('output2');
             let c = parseInt(inputC.value) * 14000;
             let d = parseInt(inputD.value) * 15000;
             let e = parseInt(inputE.value) * 16500;
@@ -111,6 +111,22 @@
         .wqer {
             margin: 2px 4px 2px 4px;
         }
+
+        .circle {
+            float: left;
+            width: 100px; 
+            height: 100px; 
+            border: 1px solid; 
+            border-radius: 60px; 
+            text-align: center; 
+            font-size: 27pt; 
+            color: black;  
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin: 10px;
+        }
+
     </style>
 </head>
 
@@ -146,6 +162,19 @@
             <label class="wqer">Доска 25*150 6м (тёс) (18 000 р/куб):<br><input type="number" input="0" id="numF"></label><br>
             <input class="wqer" type="button" value="Рассчитать" onclick="basket()"><br>
             <div id="output2"></div>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <div class="circle"  style="background-color: pink;">1</div>
+            <div class="circle"  style="background-color: purple;">2</div>
+            <div class="circle"  style="background-color: plum;">3</div>
+            <div class="circle"  style="background-color: palevioletred;">4</div>
+            <div class="circle"  style="background-color: blue;">5</div>
+            <div class="circle"  style="background-color: blueviolet;">6</div>
+            <div class="circle"  style="background-color: beige;">7</div>
+            <div class="circle"  style="background-color: burlywood;">8</div>
+            <div class="circle"  style="background-color: lightcoral;">9</div>
+            <div class="circle"  style="background-color: lightpink;">10</div>
         </div>
     </main>
 
