@@ -1,0 +1,95 @@
+commit 47f3e856f53f697a2725e8625dd81221bada25a9
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 20:05:21 2023 +0700
+
+    Меню
+
+commit fc685b6882510c5f5cbe75d5deec64a176969bdc
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:54:30 2023 +0700
+
+    Заготовка меню
+
+commit 102eab788b198eaaf1e95176ddc7f31b431ea326
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:44:20 2023 +0700
+
+    Стили второй таблицы
+
+commit 7bf669f6e46f039987fea371fad51a36c5f54d35
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:37:28 2023 +0700
+
+    Выделение новинок
+
+commit 096a483a760fc64ec66209674fae2bb868b51600
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:25:30 2023 +0700
+
+    Выделение слова Compare
+
+commit 76bf8c26573918e59963de2f1a27f420ee19841a
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:17:15 2023 +0700
+
+    Стиль подвала
+
+commit ef5b8a9c01f8326d9cf9e9f9f277466d8e6643f3
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:13:23 2023 +0700
+
+    Стили заголовка
+
+commit c36fa9d2d39dd3c46448bbd5d3310df4fc979575
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:09:47 2023 +0700
+
+    2-ая таблица и стиль body
+
+commit 5a17a3550863188466a640c4752362dc2667de33
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:48:13 2023 +0700
+
+    fix errors again
+
+commit 79e28ea111740a37ac4dc3093c0a47a7bf2f1c26
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:44:53 2023 +0700
+
+    fix errors
+
+commit 6fb9b2953dd26d5b08f094c13fbfdbdc159c881b
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:37:27 2023 +0700
+
+    Таблица и USB дубликаторы серии Super-Tower
+
+commit 94b795180b1dc6b5f64151f883ea64d45b89a3f2
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 13:18:30 2023 +0700
+
+    Недоделанная таблица
+
+commit 355c78ab3fd790289f5625c0b5e0b1750fd0e616
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 13:13:53 2023 +0700
+
+    Списки
+
+commit 58a60b5ddaf470928f97d85b36401941df203349
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:54:50 2023 +0700
+
+    Текст по USB-дубликатору
+
+commit 57a5eeb4021d1f9b44038ef1af788f4932731f79
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:45:30 2023 +0700
+
+    Заготовка к Лабе
+
+commit b5d8dd85264499936d2280fc6ffbf85038a2d384
+Author: Каширский Данил <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:28:59 2023 +0700
+
+    Лабраторная работа 2
