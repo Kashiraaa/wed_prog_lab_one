@@ -7,6 +7,57 @@
     <meta name="viewport" content="widht=device-widht, intial-scale=1.0">
     <title>Каширский Данил Сергеевич. Лабораторная работа №6</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        .games {
+            border: 1px solid;
+            border-radius: 20px;
+            margin: 30px auto;
+            padding: 10px;
+            width: 500px;
+            height: auto;
+            text-align: center;
+            padding: auto;
+            color: black;
+        }
+    </style>
+    <script>
+        let number;
+        let count = 0;
+        function startGame() {
+            number = Math.floor(Math.random() * 100) + 1;
+            let screens = document.getElementsByClassName('games');
+            screens[0].style.display = 'none';
+            screens[1].style.display = 'block';
+        }
+
+        function guess() {
+            count ++;
+            let input = document.getElementById('user-number');
+            let userNumber = parseInt(input.value);
+            let message = document.getElementById('result');
+            if(userNumber>number) {
+                message.innerHTML = 'Вы ввели слишком большое число';
+            }
+            else if(userNumber<number) {
+                message.innerHTML = 'Вы ввели слишком маленькое число';
+            }
+            else {
+                let screens = document.getElementsByClassName('games');
+                screens[1].style.display = 'none';
+                screens[2].style.display = 'block';
+                let displayNumber = document.getElementById('number');
+                displayNumber.innerHTML = number;
+                let displayCount = document.getElementById('try-count');
+                displayCount.innerHTML = count;
+            }
+        }
+
+        function again() {
+            count = 0;
+            screens[2].style.display = 'none';
+            screens[1].style.display = 'block';
+        }
+    </script>
 </head>
 
 <body>
@@ -16,6 +67,36 @@
     </header>
 
     <main>
+        <div class="games">
+            <button onclick="startGame()">
+                Да начнётся игра !
+            </button>
+        </div>
+
+        <div class="games" style="display: none;">
+            <h1>Угадай число !</h1>
+            <div>
+                Задумано число от 1 до 100. Угадайте, какое?<br>
+                <input type="number" value="" min="1" max="100" id="user-number"><br>
+                <button onclick="guess()">Угадать</button>
+                <div id="result"></div>
+            </div>
+        </div>
+
+        <div class="games" style="display: none;">
+            <h1>Поздравляем, вы выиграли!</h1>
+            <div>
+                Задуманное число <span id="number"></span>
+            </div>
+
+            <div>
+                Количество попыток <span id="try-count"></span>
+            </div>
+
+            <div>
+                <button onclick="again()">Сыграть ещё раз</button>
+            </div>
+        </div>
     </main>
 
     <footer>

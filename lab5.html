@@ -67,6 +67,11 @@
             let itog = c + d + e + f;
             output2.innerHTML = 'Общая цена : ' + itog + ' р';
         }
+
+        function dsp (num) {
+            let dsp1 = document.getElementById(num);
+            dsp1.style.opacity = '0';
+        }
     </script>
     <style>
         .message {
@@ -132,7 +137,7 @@
 
 <body>
     <header onclick="ShowAuthor()">
-        НГТУ, ФБ, Лабораторная работа 5
+        НГТУ, ФБ, Лабораторная работа №5.
     </header>
 
     <main>
@@ -165,16 +170,16 @@
         </div>
 
         <div style="display: flex; justify-content: center;">
-            <div class="circle"  style="background-color: pink;">1</div>
-            <div class="circle"  style="background-color: purple;">2</div>
-            <div class="circle"  style="background-color: plum;">3</div>
-            <div class="circle"  style="background-color: palevioletred;">4</div>
-            <div class="circle"  style="background-color: blue;">5</div>
-            <div class="circle"  style="background-color: blueviolet;">6</div>
-            <div class="circle"  style="background-color: beige;">7</div>
-            <div class="circle"  style="background-color: burlywood;">8</div>
-            <div class="circle"  style="background-color: lightcoral;">9</div>
-            <div class="circle"  style="background-color: lightpink;">10</div>
+            <div class="circle" id="1"  style="background-color: pink;" onclick="dsp('1')">1</div>
+            <div class="circle" id="2"  style="background-color: purple;" onclick="dsp('2')">2</div>
+            <div class="circle" id="3"  style="background-color: plum;" onclick="dsp('3')">3</div>
+            <div class="circle" id="4"  style="background-color: palevioletred;" onclick="dsp('4')">4</div>
+            <div class="circle" id="5"  style="background-color: blue;" onclick="dsp('5')">5</div>
+            <div class="circle" id="6"  style="background-color: blueviolet;" onclick="dsp('6')">6</div>
+            <div class="circle" id="7"  style="background-color: beige;" onclick="dsp('7')">7</div>
+            <div class="circle" id="8"  style="background-color: burlywood;" onclick="dsp('8')">8</div>
+            <div class="circle" id="9"  style="background-color: lightcoral;" onclick="dsp('9')">9</div>
+            <div class="circle" id="10"  style="background-color: lightpink;" onclick="dsp('10')">10</div>
         </div>
     </main>
 
