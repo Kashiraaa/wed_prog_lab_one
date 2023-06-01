@@ -1,0 +1,276 @@
+commit 02b9aa25f391d743908ab8c1a3435bf770203ea2
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Apr 5 12:27:43 2023 +0700
+
+    Лабораторная работа №4
+
+commit 654b9522fad334990873d0b6dae15d6d959f8887
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Apr 5 11:08:34 2023 +0700
+
+    Переход для шапки и подвала
+
+commit d4499be671c0b680f3cf069bfb9fdb802d01678d
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Apr 5 10:58:47 2023 +0700
+
+    Переход для ссылок
+
+commit b02cc1d274e9f7d32e60059ce52f632206a78f6e
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 13:29:29 2023 +0700
+
+    Тени
+
+commit 50f9c63936910ef489a11cdd6dacb6943b90a04f
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 13:22:02 2023 +0700
+
+    Градиенты на сайте
+
+commit ecb167d85baac9a83ab272838c9ab012e734a223
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 13:10:05 2023 +0700
+
+    Корректировка переходов для формул
+
+commit 1717f2d8214cf5deed89615e366440a4df5d4e2b
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 13:04:36 2023 +0700
+
+    Немного текст про формулу и прозрачность
+
+commit 28b04eae78710661f2d1d0ec99023fa0982b614c
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 12:54:43 2023 +0700
+
+    оформление текста про формулу\
+
+commit daa98705a7f5b5aa8ac6cb570f9466842d44ce52
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 12:12:09 2023 +0700
+
+    Заготовка к 3-ей Лабораторной работе
+
+commit d07202e377cb12d58743c8ca57db800030839580
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 11:13:03 2023 +0700
+
+    изменение и упрощение стилей ссылок
+
+commit bc7bdcd1b079db5975d7c4611d0c9fc5c5aabea2
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 10:54:24 2023 +0700
+
+    изменение и упрощение стилей меню
+
+commit 0ec22f54de501e81d9144797d8b88a486878e1f1
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 10:40:00 2023 +0700
+
+    Лабораторная работа №3
+
+commit dd2f0bbeb6e1e456283cf19f0c8c7fbca672084e
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Mar 22 10:29:09 2023 +0700
+
+    some fix
+
+commit 47f3e856f53f697a2725e8625dd81221bada25a9
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 20:05:21 2023 +0700
+
+    Меню
+
+commit fc685b6882510c5f5cbe75d5deec64a176969bdc
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:54:30 2023 +0700
+
+    Заготовка меню
+
+commit 102eab788b198eaaf1e95176ddc7f31b431ea326
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:44:20 2023 +0700
+
+    Стили второй таблицы
+
+commit 7bf669f6e46f039987fea371fad51a36c5f54d35
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:37:28 2023 +0700
+
+    Выделение новинок
+
+commit 096a483a760fc64ec66209674fae2bb868b51600
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:25:30 2023 +0700
+
+    Выделение слова Compare
+
+commit 76bf8c26573918e59963de2f1a27f420ee19841a
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:17:15 2023 +0700
+
+    Стиль подвала
+
+commit ef5b8a9c01f8326d9cf9e9f9f277466d8e6643f3
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:13:23 2023 +0700
+
+    Стили заголовка
+
+commit c36fa9d2d39dd3c46448bbd5d3310df4fc979575
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 19:09:47 2023 +0700
+
+    2-ая таблица и стиль body
+
+commit 5a17a3550863188466a640c4752362dc2667de33
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:48:13 2023 +0700
+
+    fix errors again
+
+commit 79e28ea111740a37ac4dc3093c0a47a7bf2f1c26
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:44:53 2023 +0700
+
+    fix errors
+
+commit 6fb9b2953dd26d5b08f094c13fbfdbdc159c881b
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue Mar 21 18:37:27 2023 +0700
+
+    Таблица и USB дубликаторы серии Super-Tower
+
+commit 94b795180b1dc6b5f64151f883ea64d45b89a3f2
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 13:18:30 2023 +0700
+
+    Недоделанная таблица
+
+commit 355c78ab3fd790289f5625c0b5e0b1750fd0e616
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 13:13:53 2023 +0700
+
+    Списки
+
+commit 58a60b5ddaf470928f97d85b36401941df203349
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:54:50 2023 +0700
+
+    Текст по USB-дубликатору
+
+commit 57a5eeb4021d1f9b44038ef1af788f4932731f79
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:45:30 2023 +0700
+
+    Заготовка к Лабе
+
+commit b5d8dd85264499936d2280fc6ffbf85038a2d384
+Author: Каширский Данил <kashirskiy75@bk.ru>
+Date:   Wed Feb 22 12:28:59 2023 +0700
+
+    Лабраторная работа 2
+
+commit 8316a320feba86f8b5dad287f66f7c4d3c43c902
+Author: Данил Каширский <kashirkskiy75@bk.ru>
+Date:   Wed Feb 22 11:56:45 2023 +0700
+
+    Добавление талблицы
+
+commit 0c951cade92991319f0d9a61089f7feefa4ed443
+Author: Данил Каширский <kashirkskiy75@bk.ru>
+Date:   Wed Feb 22 11:08:35 2023 +0700
+
+    Крупное форматирование текста
+
+commit ce8b496807de1f3e63b8c0994a275e72613191e4
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 13:17:50 2023 +0700
+
+    Дополнительный текст
+
+commit 1d88e406ab03f1cf7770f4150a4243affe0b7c8f
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 13:00:04 2023 +0700
+
+    Структура документа
+
+commit ab0bf431e3d0f35cacd848ff19f64376dd1a9817
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:51:17 2023 +0700
+
+    Добавлены 2 доп. картинки (итого каритинок получилось 5), так как перескачил по заданиям
+
+commit 57d0cd02e55e68b41d8dc046bb48186dd3f22025
+Author: Kashiraaa <124755113+Kashiraaa@users.noreply.github.com>
+Date:   Wed Feb 8 12:47:45 2023 +0700
+
+    Add files via upload
+
+commit 27f1a325323b9e90884c70dbc7c7f1a2bf77f992
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:39:15 2023 +0700
+
+    Изменён размер картинок
+
+commit e844244d5e377fa26ef94dc255754c3f2aae6ec0
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:34:03 2023 +0700
+
+    Заголовки
+
+commit 1553eb8d0716e54df0a4e6fd34fed34c10d3aad5
+Merge: 4dc89e7 068a98c
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:30:03 2023 +0700
+
+    Merge branch 'main' of https://github.com/Kashiraaa/wed_prog_lab_one
+
+commit 068a98c94e692bcde3ee74bf1be01a5679705ee4
+Author: Kashiraaa <124755113+Kashiraaa@users.noreply.github.com>
+Date:   Wed Feb 8 12:28:35 2023 +0700
+
+    Добавлены файлы "дисконт"
+
+commit 4dc89e7f7bc66bbf17604a162897bbd89f0d2654
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:25:02 2023 +0700
+
+    Абзацы
+
+commit 5464b6c126e06121b222cedfcb23fc99f5bfd7bd
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 12:17:18 2023 +0700
+
+    Выделение жирным
+
+commit 295a9bd168d32db5f1653af7cc88cf752f720c6c
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 11:34:50 2023 +0700
+
+    выделение крсивом слова разница
+
+commit 93baf155bf6744e2e3010966e714e12be2cb79ca
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 11:33:16 2023 +0700
+
+    Выделение курсивом слова скидка
+
+commit f9f935fa58b2484df8ad5e44a7fb68b0456a1f8c
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 11:27:22 2023 +0700
+
+    Выделене курсивом слова discount
+
+commit c60e7d52c963f906129202cec709f3c3cbb6e0b8
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 11:18:59 2023 +0700
+
+    Определение дисконта
+
+commit 4e774ea34fd25e446ac52355cca9107406ae4cb9
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Feb 8 11:10:59 2023 +0700
+
+    Лабораторная работа 1

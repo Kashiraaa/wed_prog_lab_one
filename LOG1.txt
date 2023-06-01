@@ -1,0 +1,47 @@
+commit 0918d4a67b4f9c50ca021f7255acb80017fcaa30
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 21:53:01 2023 +0700
+
+    добавка в index
+
+commit a31766a25ee32612babf4bfee45af14ec2d24845
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 21:51:29 2023 +0700
+
+    Комикс
+
+commit f1ee1a12d5b55fc1efb24c2e964382512fe6fdfb
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 20:16:56 2023 +0700
+
+    Подвал
+
+commit a93986bfc0fb33f732314d4ada5622a49121903c
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 20:12:39 2023 +0700
+
+    Боковая панель
+
+commit 3d588a0d7a7c5cebcf2c0c1971fe2836bc589d9e
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 19:53:07 2023 +0700
+
+    Позиционирование
+
+commit 0106759ceff0699ca0d5b9a5ac5dfe95f1720aaf
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 19:37:05 2023 +0700
+
+    Размеры блоков, скролл
+
+commit 70c271c8c4e08392e40bc5ffe982dfc57bb3764e
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Tue May 30 16:37:11 2023 +0700
+
+    Заготовка к Лабе 4
+
+commit 02b9aa25f391d743908ab8c1a3435bf770203ea2
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Wed Apr 5 12:27:43 2023 +0700
+
+    Лабораторная работа №4
