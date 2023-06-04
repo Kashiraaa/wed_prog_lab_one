@@ -35,7 +35,13 @@
             let input = document.getElementById('user-number');
             let userNumber = parseInt(input.value);
             let message = document.getElementById('result');
-            if(userNumber>number) {
+            if (userNumber>100) {
+                message.innerHTML = 'Ооочень большое число, попробуй поменьше';
+            }
+            else if (userNumber<100) {
+                message.innerHTML = 'Цифра может и маленькая, но не настолько';
+            }
+            else if(userNumber>number) {
                 message.innerHTML = 'Вы ввели слишком большое число';
             }
             else if(userNumber<number) {
@@ -54,8 +60,12 @@
 
         function again() {
             count = 0;
+            let screens = document.getElementsByClassName('games');
             screens[2].style.display = 'none';
             screens[1].style.display = 'block';
+            number = Math.floor(Math.random() * 100) + 1; 
+            document.getElementById('try-count').innerHTML = count;
+            document.getElementById('result').innerHTML = "";
         }
     </script>
 </head>
