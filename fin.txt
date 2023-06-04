@@ -1,0 +1,66 @@
+commit ae43f762b4ca5319979a89d13a9f9b8db0722c62
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 05:47:12 2023 +0700
+
+    Фильтрация
+
+commit 1c99780b6b13bcff0cf203994ba22ee8793d2ed9
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 04:45:53 2023 +0700
+
+    Рассширяющийяс блок
+
+commit 8231ccb77ff49f7408d19791c5f956ccc329825b
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 04:23:10 2023 +0700
+
+    Двигающийся блок
+
+commit 8403c8c8390586290b8c4210711839d719574630
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 03:38:07 2023 +0700
+
+    Перебор цветов
+
+commit 47c0b8fa2c3e4494696a93ce1cae0ccc012395af
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 03:36:53 2023 +0700
+
+    Угадай число
+
+commit e0226470729044ba3c5fd995ff1bad72b2cf9e2b
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 02:34:30 2023 +0700
+
+    Правила игры
+
+commit f55c77319cd685106880c0a2a646fa345d5281d0
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Mon Jun 5 00:51:20 2023 +0700
+
+    Угадай число
+
+commit 3a9be6847eedefb8fb2e1cce33941e47ca87a884
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Thu Jun 1 22:50:47 2023 +0700
+
+    РНД
+
+commit 4f8aee57225db5b2925c859f92d50312e18d34e2
+Merge: c460e50 2a031a4
+Author: Данил Каширский <kashirskiy75@bk.ru>
+Date:   Thu Jun 1 22:50:04 2023 +0700
+
+    Merge branch 'main' of https://github.com/Kashiraaa/wed_prog_lab_one
+
+commit 2a031a472a3eb31e1fba59e80ada28e947d58089
+Author: Smakotin <student@fb.local>
+Date:   Wed May 31 13:27:11 2023 +0700
+
+    Недоделанная угадайка числа + доработки др. лаб
+
+commit 32dc101ef24e6acc88461946b2a9e75b3a9b6445
+Author: Smakotin <student@fb.local>
+Date:   Wed May 31 11:19:53 2023 +0700
+
+    Скрытие кругов
