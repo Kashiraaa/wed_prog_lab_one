@@ -30,6 +30,17 @@
         li {
             color: black;
         }
+
+        .color {
+            border: 3px solid;
+            background-color: rgb(255, 255, 60);
+            border-radius: 30px;
+            padding: 30px;
+            width: 500px;
+            height: auto;
+            padding: auto;
+            color: black;
+        }
     </style>
     <script>
         let number;
@@ -93,6 +104,34 @@
             screens[1].style.display = "none";
             screens[0].style.display = "block";
         }
+
+        function changeColor(div) {
+           if(div.style.backgroundColor == 'yellow') {
+            div.style.backgroundColor = 'red';
+            div.style.color = 'black';
+            document.getElementById('color-name').innerHTML = 'Красный';
+           }
+           else if(div.style.backgroundColor == 'red') {
+            div.style.backgroundColor = 'black';
+            div.style.color = 'white';
+            document.getElementById('color-name').innerHTML = 'Чёрный';
+           }
+           else if(div.style.backgroundColor == 'black') {
+            div.style.backgroundColor = 'pink';
+            div.style.color = 'black';
+            document.getElementById('color-name').innerHTML = 'Розовый';
+           }
+           else if(div.style.backgroundColor == 'pink') {
+            div.style.backgroundColor = 'green';
+            div.style.color = 'white';
+            document.getElementById('color-name').innerHTML = 'Зелёный';
+           }
+           else {
+            div.style.backgroundColor = 'yellow';
+            div.style.color = 'black';
+            document.getElementById('color-name').innerHTML = 'Жёлтый';
+           }
+        }
     </script>
 </head>
 
@@ -149,6 +188,11 @@
                 <li>Ура, вы смогли! Если вы хотите попробовать ещё раз, то шмякните кнопку "Сыграть ещё раз".</li>
                 </ol>
             </div>
+        </div>
+
+        <div class="color" ondblclick="changeColor(this)">
+            Цвет:<span id="color-name">Жёлтый</span><br>
+            Сделайте двойной щелчок, чтобы сменить.
         </div>
     </main>
 
