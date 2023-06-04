@@ -50,10 +50,28 @@
             width: 150px;
             height: 150px;
             text-align: center;
+            display: flex; 
+            align-items: center;
             font-size: 20pt;
             position: relative;
             transition: 1000ms;
             transform: rotate(0);
+        }
+        
+        .minecraft {
+            border: 3px solid;
+            background-color: green;
+            color: violet;
+            margin: 40px 0px 40px 0px;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            display: flex; 
+            align-items: center;
+            font-size: 14pt;
+            position: relative;
+            transition: 1000ms; 
+            cursor: pointer; 
         }
     </style>
     <script>
@@ -149,18 +167,27 @@
 
         
         function spiner(tlprt) {
-        if (tlprt.style.left == '0px'){
+        if (tlprt.style.left == '0px') {
             tlprt.style.left = '1725px';
-            if (tlprt.style.transform = 'rotate(0)'){
+            if (tlprt.style.transform = 'rotate(0)') {
                 tlprt.style.transform = 'rotate(4turn)';
             }
           }
            else {
             tlprt.style.left = '0px';
-            if(tlprt.style.transform = 'rotate(4turn)'){
-                tlprt.style.transform = 'rotate(0)'  
+            if(tlprt.style.transform = 'rotate(4turn)') {
+                tlprt.style.transform = 'rotate(0)';
             }
           }
+        }
+
+        function bolshe(blocki) {
+            if(parseInt(blocki.style.width)<=1000) {
+                blocki.style.width = parseInt(blocki.style.width) + 50 + 'px';
+            }
+            else {
+                blocki.style.width = '100px';
+            }
         }
     </script>
 </head>
@@ -227,6 +254,10 @@
 
         <div class="runin" onclick="spiner(this)">
             Щёлкни меня !
+        </div>
+
+        <div class="minecraft" onclick="bolshe(this)">
+            Сделай меня больше !
         </div>
     </main>
 
