@@ -37,7 +37,7 @@
         }
 
         function AddTransbloks(){
-            let colors = document.getElementById('trbl');
+            let colors = document.getElementById('transp-blocks');
             for(let i = 0; i<10; i++){
                 let blok = document.createElement('div');
                 blok.style.width = '70px';
@@ -48,6 +48,27 @@
                 colors.appendChild(blok);
             }
         }
+
+        function Circles() {
+            let numCurcles = document.getElementById('numC').value;
+            let circles = document.getElementById('circl');
+            for (let i = numCurcles; i > 0; i--){
+                let circlecolor = document.createElement('div');
+                circlecolor.style.width = '70px';
+                circlecolor.style.height = '70px';
+                circlecolor.style.borderRadius = '120px';
+                circlecolor.style.textAlign = 'center';
+                if (i % 2 == 0){
+                    circlecolor.style.backgroundColor = 'red';
+                }
+                else {circlecolor.style.backgroundColor = 'green';
+                }
+                circlecolor.innerHTML = i;
+                circles.appendChild(circlecolor);
+            }
+        }
+
+
     </script>
 </head>
 
@@ -66,7 +87,14 @@
         <div id="detail"></div>
 
         <button onclick="AddTransbloks()">Создать полупрозрачные блоки</button>
-        <div id="trbl"></div>
+        <div id="transp-blocks"></div>
+
+        <label>Введите количество круглешков:</label>
+        <input type="number" value="5" placeholder="Введите число кругов" id="numC">
+        <button onclick="Circles()">Красно-зелень</button>
+        <div id="circl"></div>
+
+        
 
     </main>
 
