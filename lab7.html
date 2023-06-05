@@ -25,6 +25,7 @@
                 let tr = document.createElement('tr');
                 let td = document.createElement('td');
                 td.innerHTML = exchage[i];
+                td.style.color = 'black';
                 tr.appendChild(td);
                 table.appendChild(tr);
             }
@@ -73,10 +74,52 @@
             for (let i = 13; i < 34; i++){
                 let n = document.createElement('div');
                 n.innerHTML = i + '*' + 96 + '='+ (i*96);
-                n.style.color = 'black'
+                n.style.color = 'black';
                 b.appendChild(n);
             
             }
+        }
+
+        function Akcii() {
+            let data = ['09.03.2023', '10.03.2023', '13.03.2023', '14.03.2023', '15.03.2023', 
+                        '16.03.2023', '20.03.2023', '25.03.2023', '26.03.2023', '27.03.2023' ];
+            let kurs = [27.95, 27.55, 27.26, 26.92, 26.39, 
+                        27.7, 28.59, 29.45, 30.15, 32.05];
+            let table = document.getElementById('lab76');
+            for(let i = 0; i < data.length; i++){
+                let tr = document.createElement('tr');
+                let tdD = document.createElement('td'); 
+                tdD.innerHTML = data[i];
+                tdD.style.color = 'black';
+                tr.appendChild(tdD);
+                let tdK = document.createElement('td');
+                tdK.innerHTML = kurs[i];
+                tdK.style.color = 'black';
+                tr.appendChild(tdK);
+                let tdRrr = document.createElement('td');
+                if (i==0){
+                    tdRrr.innerHTML = '-' ;
+                    tdRrr.style.color = 'black';         
+                }
+                else{
+                    tdRrr.innerHTML = (kurs[i]-kurs[i-1]).toFixed(3);
+                    tdRrr.style.color = 'black';
+                }
+                tr.appendChild(tdRrr);
+                table.appendChild(tr);
+            }
+            let sum = 0;
+            for(let i = 0; i < kurs.length; i++) {
+                sum = sum + kurs[i];
+            }
+            let middle = sum / kurs.length;
+            document.getElementById('middle').innerHTML = 'Среднее значение: ' + middle;
+
+            let min = Math.min(...kurs);
+            document.getElementById('min').innerHTML = 'Минимальное значение: '+ min;
+
+            let max = Math.max(...kurs);
+            document.getElementById('max').innerHTML = 'Максимальное значение: ' + max;
         }
     </script>
 </head>
@@ -106,7 +149,11 @@
         <button onclick="deistvie()">Умножить на 96</button>
         <div id="przd"></div>
 
-        
+        <button onclick="Akcii()"> Курс акций Группы "О'кей":</button>
+        <table border="3" id="lab76"></table>
+        <div id="middle"></div>
+        <div id="min"></div>
+        <div id="max"></div>
 
     </main>
 
