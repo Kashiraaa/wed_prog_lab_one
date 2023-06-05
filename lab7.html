@@ -33,7 +33,20 @@
                 sum = sum + exchage[i];
             }
             let average = sum / exchage.length;
-            document.getElementById('detail').innerHTML = 'Среднее значение' + average;
+            document.getElementById('detail').innerHTML = 'Среднее значение' + ':'+ ' ' + average;
+        }
+
+        function AddTransbloks(){
+            let colors = document.getElementById('trbl');
+            for(let i = 0; i<10; i++){
+                let blok = document.createElement('div');
+                blok.style.width = '70px';
+                blok.style.height = '70px';
+                blok.style.margin = '10px';
+                blok.style.backgroundColor = 'blue';
+                blok.style.opacity = i/10;
+                colors.appendChild(blok);
+            }
         }
     </script>
 </head>
@@ -51,6 +64,9 @@
         <button onclick="showExchage()"> Курс доллара</button>
         <table border="1" id="dollar-exchange"></table>
         <div id="detail"></div>
+
+        <button onclick="AddTransbloks()">Создать полупрозрачные блоки</button>
+        <div id="trbl"></div>
 
     </main>
 
