@@ -68,7 +68,16 @@
             }
         }
 
-
+        function deistvie() {
+            let b = document.getElementById('przd');
+            for (let i = 13; i < 34; i++){
+                let n = document.createElement('div');
+                n.innerHTML = i + '*' + 96 + '='+ (i*96);
+                n.style.color = 'black'
+                b.appendChild(n);
+            
+            }
+        }
     </script>
 </head>
 
@@ -94,7 +103,10 @@
         <button onclick="Circles()">Красное-зеленое</button>
         <div id="circl"></div>
 
+        <button onclick="deistvie()">Умножить на 96</button>
+        <div id="przd"></div>
 
+        
 
     </main>
 
