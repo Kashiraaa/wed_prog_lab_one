@@ -7,6 +7,16 @@
     <meta name="viewport" content="widht=device-widht, intial-scale=1.0">
     <title>Каширский Данил Сергеевич. Лабораторная работа №7</title>
     <link rel="stylesheet" href="main.css">
+    <script>
+        function addblocks(){
+            let blocks = document.getElementById('blocks');
+            for(let i = 0; i<10; i++){
+                let block = document.createElement('div');
+                block.innerHTML = 'блок №'+ (i + 1) + ': ' + (2 * i**2);
+                blocks.appendChild(block);
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -15,6 +25,11 @@
     </header>
 
     <main>
+
+        <button onclick="addblocks()">Создать блоки</button>
+        <div id="blocks"></div>
+
+
     </main>
 
     <footer>
