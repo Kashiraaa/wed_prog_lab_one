@@ -8,8 +8,9 @@ function showDate() {
     +'Дата и время для Китайской локали: ' +  today.toLocaleString('zh-HK') + '<br>'
     +'Дата и время для Украинской локали: ' +  today.toLocaleString('uk-UA') + '<br>'
     +'Дата и время для Узбекистанской локали: ' +  today.toLocaleString('uz-UZ') + '<br>'
-    +'Дата и время для Египетской локали локали: ' +  today.toLocaleString('ar-EG')
+    +'Дата и время для Египетской локали локали: ' +  today.toLocaleString('ar-EG');
 }
+setInterval(showDate, 1000);
 
 function sDC() {
     let today = new Date();
@@ -24,3 +25,10 @@ function deliteus() {
     document.getElementById('tablica').value = "";
     document.getElementById('dr').innerHTML="";
 }
+
+function showTime(){
+    let today = new Date();
+    let currentTime = today.toLocaleTimeString('ru-RU');
+    document.getElementById('time').innerHTML = currentTime;
+}
+setInterval(showTime, 1000);
