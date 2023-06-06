@@ -1,53 +1,29 @@
-commit 8cb1943d97abeb4e4e1dc303fbddf828401c1dfc
+commit 654c02e4129176e9b593f2eb19c55c21fa398d40
 Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 02:10:30 2023 +0700
+Date:   Tue Jun 6 15:01:39 2023 +0700
 
-    Котировки акций Группы О'кей
+    Время + some fix
 
-commit 48bdac24e1c4d453e1faa250b684bc82a9b73ee8
+commit 07251a31e6f23612424f184bbd0f4140e9a30e90
 Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 01:10:42 2023 +0700
+Date:   Tue Jun 6 14:53:24 2023 +0700
 
-    Умножение на 96
+    Число с рождения
 
-commit 100c0e8d4a10c94d75572ba26260b6020d2856ae
+commit e3d0f26db36845e8d083ec3047f5e36f476a7e5f
 Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 01:05:57 2023 +0700
+Date:   Tue Jun 6 14:10:27 2023 +0700
 
-    Красное - зелёное
+    Звёздочка
 
-commit b3e4abb55bfd623f2e41c22315bd8598c5a99358
+commit 68905c23db3d295d50dfe69f362407f40e12cb87
 Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 01:03:34 2023 +0700
+Date:   Tue Jun 6 14:09:42 2023 +0700
 
-    <button onclick=umn()>Умножение на 29</button>
+    Вывод даты
 
-commit d41378067b03fee8ba9e9ff2c89cb23342eba905
+commit 35539a96d72421d25533698741cc4f37924586a1
 Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 00:44:31 2023 +0700
+Date:   Tue Jun 6 02:22:54 2023 +0700
 
-    Прозрачность блоков
-
-commit e823966cbf16f7127aaf554dc35aa2692d56073a
-Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Tue Jun 6 00:38:49 2023 +0700
-
-    Курс доллара
-
-commit b1cd18b4d592c9aab3ac8609575154694b5c84b8
-Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Mon Jun 5 23:54:35 2023 +0700
-
-    Блоки
-
-commit 17864f7b306ea9b75039d2c91f7ca70e548dd0a9
-Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Mon Jun 5 23:43:20 2023 +0700
-
-    Заготовка к 7 Лабораторной
-
-commit 4adbaf919acb6a213db5461680e8ec6504ffa4c0
-Author: Данил Каширский <kashirskiy75@bk.ru>
-Date:   Mon Jun 5 23:38:26 2023 +0700
-
-    Лабораторная работа №7
+    Лабораторная работа №8 + Заготовка к Лаб.8 + some fix
