@@ -10,3 +10,17 @@ function showDate() {
     +'Дата и время для Узбекистанской локали: ' +  today.toLocaleString('uz-UZ') + '<br>'
     +'Дата и время для Египетской локали локали: ' +  today.toLocaleString('ar-EG')
 }
+
+function sDC() {
+    let today = new Date();
+    let inputDate = document.querySelector('input[type=date]');
+    let birthday = new Date(inputDate.value);
+    let daysCount = (today - birthday)/1000/60/60/24;
+    daysCount = Math.floor(daysCount);
+    document.getElementById('dr').innerHTML = "Количество дней с даты рождения: " + daysCount + ' дн.';
+}
+
+function deliteus() {
+    document.getElementById('tablica').value = "";
+    document.getElementById('dr').innerHTML="";
+}
