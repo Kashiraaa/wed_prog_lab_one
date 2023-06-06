@@ -7,14 +7,29 @@
     <meta name="viewport" content="widht=device-widht, intial-scale=1.0">
     <title>Каширский Данил Сергеевич. Лабораторная работа №8</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        .dates {
+            cursor: pointer;
+            color: purple;
+            font-size: 16pt;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 8px;
+            border: 2px solid purple;
+            border-radius: 30px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+    <script src="lab8.js"></script>
 </head>
 
-<body>
+<body onload="showDate()">
     <header>
         НГТУ, ФБ,   Лабораторная работа №8
     </header>
 
     <main>
+        <div class="dates" id="current-date"></div>
     </main>
 
     <footer>
