@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каширский Данил Сергеевич. РГЗ по web-программированию.</title>
+    <link rel="stylesheet" href="rgz.css">
+    <style>
+
+        #min {
+            margin : 10px auto 10 px auto;
+            border: 2px solid darkblue;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px auto 10px auto;  
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        #max {
+            margin : 10px auto 10 px auto;
+            border: 2px solid darkblue;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        #otkl {
+            margin : 10px auto 10 px auto;
+            border: 2px solid darkblue;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            text-align: center; 
+            background-color: lightblue;
+        }
+        
+        p {
+            border: 1px solid darkblue;
+            border-radius: 20px;
+            margin: auto 10px auto 10px;
+            padding: 10px; 
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <menu>
+        <img src="rgzpic.jpg" class="log">
+        <a class="ref" href="RGZ1.HTML">О компании</a><a class="ref" href="RGZ2.HTML">Основные финансовые показатели</a>
+        <a class="ref" href="RGZ3.HTML">Контактные данные</a><a class="ref" href="RGZ4.HTML">Видео</a>
+     </menu>
+     <main>
+        <h1>Основные финансовые показатели</h1>
+        
+        <h2>Капитализация на 07.06.2023:</h2> 
+        <p>61 141 990 000,714 рублей</p>
+
+        <h2>Общее число акций, обращающихся на Московской бирже:</h2>
+        <p>282 220 007 акций</p>
+        
+        <h2>Таблица с ценами закрытия за весь апрель:</h2>
+        <table border="2" id="table"></table>
+        <div id="min" style="color: white; font-weight: bolder;"></div>
+        <div id="max" style="color: white; font-weight: bolder;"></div>
+        <div id="otkl"style="color: white; font-weight: bolder;" ></div>
+        <script>
+            let data = ['3-04-2023', '4-04-2023', '5-04-2023', '6-04-2023', '7-04-2023',
+                        '10-04-2023', '11-04-2023', '12-04-2023', '13-04-2023', '14-04-2023',
+                        '17-04-2023', '18-04-2023', '19-04-2023', '20-04-2023', '21-04-2023',
+                        '24-04-2023', '25-04-2023', '26-04-2023', '27-04-2023', '28-04-2023'];
+            let kurs = [0.004567,0.003441,0.0057,0.009786,0.009854,0.004312,0.009368,0.00888,0.009013,0.009045,0.00897,
+                        0.0094981,0.0097868,0.009902,0.00974,0.009554,0.00851,0.009766,0.00785,0.009244,];
+            let table = document.getElementById('table');
+            for(let i = 0; i < data.length; i++){
+                    let tr = document.createElement('tr');
+                    let tdD = document.createElement('td');
+                    tdD.innerHTML = data[i];
+                    tr.appendChild(tdD);
+                    let tdK = document.createElement('td');
+                    tdK.innerHTML = kurs[i];
+                    tr.appendChild(tdK);
+                    table.appendChild(tr);
+            }
+            let min = Math.min(...kurs);
+            document.getElementById('min').innerHTML = 'Минимальное значение: ' + min;
+            let max = Math.max(...kurs);
+            document.getElementById('max').innerHTML = 'Максимальное значение: ' + max;
+            let sum = 0;
+            for (let i = 0; i < kurs.length; i++) {
+            sum += kurs[i];
+            }
+            let avg = sum / kurs.length;
+            let variance = 0;
+            for (let i = 0; i < kurs.length; i++) {
+            variance += Math.pow(kurs[i] - avg, 2);
+            }
+            let otklonenie = Math.sqrt(variance / kurs.length);
+            document.getElementById('otkl').innerHTML = 'Среднеквадратическое отклонение: ' + otklonenie;
+        </script>
+     </main>
+</body>
+</html>

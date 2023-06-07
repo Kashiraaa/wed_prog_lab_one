@@ -1,0 +1,32 @@
+body {
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    margin: 0px;
+    z-index: -1; 
+}
+
+.log {
+    height: 60px;
+    width: 150px;
+    margin-left: 0;
+}
+
+.ref {
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    margin: auto 10px auto 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+html {
+
+    background-image: url(https://img.geliophoto.com/4most2022/01_4most2022.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
